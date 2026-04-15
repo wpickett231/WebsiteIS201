@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bass Guitar — Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    :root {
+      --bg: #000000;
+      --card: #1a1a1a;
+      --accent: #1f7a8c;
+      --muted: #cccccc;
+      --text: #ffffff;
+      --soft: #333333;
+    }
+    body { background: var(--bg); color: var(--text); }
+    .card { background: var(--card); color: var(--text); }
+    .nav a { color: var(--accent); }
+    .footer { color: var(--muted); }
+    .wish-card { background: var(--card); }
+    .wish-card p { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="shreddingbass.jpeg" alt="Shredding Bass">
+      <div>
+        <h1>Bass Guitar</h1>
+        <div class="lead">My passion for low-end grooves and tone</div>
+      </div>
+    </header>
+
+    <nav class="nav">
+        <a href="index.html">Home</a> |
+        <a href="bass.html">Bass</a> |
+        <a href="game.html">Game</a>
+    </nav>
+
+    <main class="card">
+      <h2>Why I Love the Bass</h2>
+      <p>The bass holds the groove — it’s my bridge between rhythm and melody.</p>
+
+      <ol>
+        <li>What I gain from playing
+          <ul>
+            <li>Deep pocket and timing</li>
+            <li>Improved ear for harmony</li>
+            <li>Connection with other musicians</li>
+          </ul>
+        </li>
+        <li>Favorite styles: Funk, Rock, Jazz</li>
+        <li>Practice goals: slap technique, tone shaping, improvisation</li>
+      </ol>
+
+      <p>Jump to my dream gear list: <a href="#wishlist">Wishlist</a></p>
+
+      <section class="media">
+        <h3>The Song I Am Learning</h3>
+        <p>Here is the video:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ve37F3Ee9Ow?si=zGRk-O8y08C1PsNM&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+
+      <section id="tableau">
+        <h3>Music Streaming Trends (Tableau Embed)</h3>
+        <p>This is a live embedded Tableau Public visualization about music streaming data (interactive).</p>
+        <div class="viz-wrapper">
+          <iframe src="https://public.tableau.com/views/SpotifyDataAnalysis/Dashboard1?:showVizHome=no&:embed=true" frameborder="0" allowfullscreen class="tableau-iframe"></iframe>
+        </div>
+      </section>
+
+      <section id="wishlist">
+        <h3>Cool Bass Guitars I'd Like to Buy</h3>
+        <p>My short-list of dream basses — a mix of iconic tone and playability.</p>
+        <div class="wishlist">
+          <div class="wish-card">
+            <img src="fenderpbass.jpg" alt="Fender Precision Bass"/>
+            <h4>Fender Precision Bass</h4>
+            <p>Thick fundamental tone and industry-standard feel — the workhorse bass.</p>
+          </div>
+
+          <div class="wish-card">
+            <img src="musicman.png" alt="Music Man Bass"/>
+            <h4>Music Man Bass</h4>
+            <p>Exceptional build quality and distinctive tone — a favorite among professionals.</p>
+          </div>
+
+          <div class="wish-card">
+            <img src="6stringschecter.jpeg" alt="Schecter 6-string bass"/>
+            <h4>Schecter 6-String Bass</h4>
+            <p>Extended range for modern tones — perfect for progressive and studio work.</p>
+          </div>
+        </div>
+      </section>
+
+      <p><a href="game.html">Try the Number Guessing Game</a></p>
+    </main>
+
+    <footer class="footer">© Wyatt Pickett — Bass Guitar</footer>
+  </div>
+</body>
+</html>
